@@ -47,7 +47,7 @@ def baixar_e_extrair_valores(asin: str):
         if valores:
             return valores
 
-    raise RuntimeError(f"Não foi possível extrair valores para ASIN {asin}")
+    raise RuntimeError(f"Unable to extract values ​​for ASIN {asin}")
 
 def compute_price_data(asin: str):
     """
@@ -80,7 +80,7 @@ def compute_price_data(asin: str):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Extrai preços de gráfico CamelCamelCamel para um ASIN e gera JSON"
+        description="Extracts prices from CamelCamelCamel chart for an ASIN and generates JSON"
     )
     parser.add_argument("--asin", required=True, help="Código ASIN do produto")
     args = parser.parse_args()
