@@ -47,7 +47,7 @@ func main() {
     http.HandleFunc("/api/price", priceHandler)
     http.HandleFunc("/api/image", fullImageHandler)
 
-    log.Println("🚀 Servidor rodando em :8080")
+    log.Println("🚀 Server Runing in :8080")
     log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
