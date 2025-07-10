@@ -90,4 +90,4 @@ Setup & Run:
      – Backend: re-run `go build` and restart the .exe
      – Frontend: hot-reload with “r” in the flutter console or run again
 
-Happy coding!
+This project was created solely for educational purposes and learning as part of an assignment by UNIFEI (Federal University of Itajubá), Itabira campus.
