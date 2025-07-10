@@ -28,6 +28,7 @@ Setup & Run:
 
 2. Build Go executable:
      go mod tidy
+
      go build -o Price_tracker.exe main.go
 
 3. Prepare Python virtual environment:
