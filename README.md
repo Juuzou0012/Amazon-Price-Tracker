@@ -4,7 +4,7 @@ This repository contains two main components:
  1. Backend service (Go + Python)
  2. Frontend application (Flutter for Windows)
 
-── BACKEND (Go + Python) ────────────────────────────────────────────────────────
+BACKEND (Go + Python)
 
 Folder structure:
   Price_tracker/
